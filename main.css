@@ -1,3 +1,69 @@
 body {
-  background-color: goldenrod;
+  background-image: linear-gradient(45deg, #000000, #14213D, #FCA311, #a19f9f, #ffffff);
+  height: 100%;
+}
+#profile-img {
+  padding: 10px;
+  border-radius: 50%;
+  width: 185px;
+  height: 200px;
+  justify-self: center;
+}
+
+#main-div {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h5 {
+  font-family: fantasy;
+  color: rgb(66, 55, 55);
+  justify-self: center;
+}
+
+p {
+  font-family: fantasy;
+  color: lightslategray;
+  justify-self: center;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+#logo-div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#first-button-div {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; 
+  appearance: button;
+  background-color: rgb(13, 110, 253);
+  border: 1px solid rgb(13, 110, 253);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  height: 40px;
+  padding: 12px 12px; 
+  width: 352.812px;
+  margin-top: 6px;
+}
+
+#first-button-image {
+  margin-right: 8px;
+}
+
+
+h6 {
+  text-align: center;
+  margin-left: 43px;
+  
 }
